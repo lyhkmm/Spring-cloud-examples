@@ -1,4 +1,4 @@
-package com.lyh.cloud.consumer;
+package com.lyh.cloud.producer;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.lyh.cloud.consumer;
+package com.lyh.cloud.producer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class Producer1Application {
+public class ProducerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Producer1Application.class, args);
+		SpringApplication.run(ProducerApplication.class, args);
 	}
 }

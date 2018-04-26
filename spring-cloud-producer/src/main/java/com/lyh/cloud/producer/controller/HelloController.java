@@ -1,4 +1,4 @@
-package com.lyh.cloud.consumer.controller;
+package com.lyh.cloud.producer.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
