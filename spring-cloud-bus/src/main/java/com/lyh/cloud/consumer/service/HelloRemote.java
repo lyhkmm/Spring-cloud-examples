@@ -1,4 +1,4 @@
-package com.lyh.cloud.consumer.service;
+package com.lyh.cloud.producer.service;
 
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
