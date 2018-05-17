@@ -1,4 +1,4 @@
-package com.lyh.cloud.consumer;
+package com.lyh.cloud.producer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,9 +12,9 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 @EnableFeignClients
 @EnableHystrixDashboard
 @EnableCircuitBreaker
-public class ConsumerApplication {
+public class Consumer1Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConsumerApplication.class, args);
+		SpringApplication.run(Consumer1Application.class, args);
 	}
 }

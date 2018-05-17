@@ -1,6 +1,6 @@
-package com.lyh.cloud.consumer.controller;
+package com.lyh.cloud.producer.controller;
 
-import com.lyh.cloud.consumer.service.HelloRemote;
+import com.lyh.cloud.producer.service.HelloRemote;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
